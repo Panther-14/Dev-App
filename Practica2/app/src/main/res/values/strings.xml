@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Practica2</string>
+    <string name="result_message">Tu imc</string>
+    <string name="error_message">Algo salió mal</string>
+    <string name="add_height">Height</string>
+    <string name="write_height_cm">Write height in cm</string>
+    <string name="add_weight">Weight</string>
+    <string name="write_weight_kg">Write weight in kg</string>
+    <string name="calc_imc">Calculate</string>
+    <string name="body_mass_index">Body mass index</string>
+    <string name="less_than_18_5">Less than 18.5</string>
+    <string name="under_weight">Under weight</string>
+    <string name="between18_5_and_24_9">Between 18.5 and 24.9</string>
+    <string name="normal_weight">Normal wieght</string>
+    <string name="between25_and_29_9">Between 25 and 29.9</string>
+    <string name="overweight">Overweight</string>
+    <string name="between30_and_34_9">Between 30 and 34.9</string>
+    <string name="class1_obesity">Class 1 obesity</string>
+    <string name="between35_and_39_9">Between 35 and 39.9</string>
+    <string name="class2_obesity">Class 2 obesity</string>
+    <string name="more_than_40">More than 40</string>
+    <string name="class3_obesity">Class 3 obesity</string>
+</resources>
