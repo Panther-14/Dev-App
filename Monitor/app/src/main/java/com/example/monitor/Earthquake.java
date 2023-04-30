@@ -1,8 +1,17 @@
 package com.example.monitor;
 
+import androidx.annotation.NonNull;
+import androidx.room.ColumnInfo;
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
+
 import java.util.Objects;
 
+@Entity(tableName = "earthquakes")
 public class Earthquake {
+
+    @PrimaryKey
+    @NonNull
     private String id;
     private String place;
     private double magnitude;
@@ -10,8 +19,7 @@ public class Earthquake {
     private double latitude;
     private double longitude;
 
-    public Earthquake(String id, String place, double magnitude, long
-            time, double latitude, double longitude) {
+    public Earthquake(String id, String place, double magnitude, long time, double latitude, double longitude) {
         this.id = id;
         this.place = place;
         this.magnitude = magnitude;
