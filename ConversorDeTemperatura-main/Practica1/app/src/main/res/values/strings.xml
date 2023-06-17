@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Practica1</string>
+    <string name="btnConvert">Convert</string>
+    <string name="txtTemperature">Ingresar Temperatura en Farenheit</string>
+    <string name="edtInput">Grados Farenheit</string>
+</resources>
